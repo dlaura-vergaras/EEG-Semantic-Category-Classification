@@ -1,0 +1,1207 @@
+<OpenViBE-Scenario>
+	<FormatVersion>2</FormatVersion>
+	<Creator>OpenViBE Designer</Creator>
+	<CreatorVersion>2.2.0</CreatorVersion>
+	<Settings></Settings>
+	<Inputs></Inputs>
+	<Outputs></Outputs>
+	<Boxes>
+		<Box>
+			<Identifier>(0x00001433, 0x00003e25)</Identifier>
+			<Name>Display cue image</Name>
+			<AlgorithmClassIdentifier>(0x005789a4, 0x3ab78a36)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations (deprecated)</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Display images in full screen</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>true</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Scale images to fit</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>true</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Clear screen Stimulation</Name>
+					<DefaultValue>OVTK_StimulationId_VisualStimulationStop</DefaultValue>
+					<Value>OVTK_StimulationId_Button4_Pressed</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Cue Image 1</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/01.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/stop.png</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 1</Name>
+					<DefaultValue>OVTK_StimulationId_Label_01</DefaultValue>
+					<Value>OVTK_StimulationId_Button1_Pressed</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x0070cea2, 0x80251059)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 2</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/02.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/stop.png</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 2</Name>
+					<DefaultValue>OVTK_StimulationId_Label_02</DefaultValue>
+					<Value>OVTK_StimulationId_Button2_Pressed</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x006d9d9d, 0xa4e5a991)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 3</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/03.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/stop.png</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 3</Name>
+					<DefaultValue>OVTK_StimulationId_Label_03</DefaultValue>
+					<Value>OVTK_StimulationId_Button3_Pressed</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x002395eb, 0xcdb70639)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 4</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/04.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/Intrucciones2.png</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 4</Name>
+					<DefaultValue>OVTK_StimulationId_Label_04</DefaultValue>
+					<Value>OVTK_StimulationId_Label_00</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x0001a2df, 0x085f5b71)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 5</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/05.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/A21.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 5</Name>
+					<DefaultValue>OVTK_StimulationId_Label_05</DefaultValue>
+					<Value>OVTK_StimulationId_Label_3D</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x0004f88d, 0x6bcfdfa9)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 6</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/06.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/A22.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 6</Name>
+					<DefaultValue>OVTK_StimulationId_Label_06</DefaultValue>
+					<Value>OVTK_StimulationId_Label_3E</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x000cea2a, 0x7d07a2e1)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 7</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/07.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/A23.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 7</Name>
+					<DefaultValue>OVTK_StimulationId_Label_07</DefaultValue>
+					<Value>OVTK_StimulationId_Label_3F</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x0055d75b, 0xfccc7519)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 8</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/08.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/A24.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 8</Name>
+					<DefaultValue>OVTK_StimulationId_Label_08</DefaultValue>
+					<Value>OVTK_StimulationId_Label_40</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x0042218b, 0x87853651)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 9</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/09.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/A25.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 9</Name>
+					<DefaultValue>OVTK_StimulationId_Label_09</DefaultValue>
+					<Value>OVTK_StimulationId_Label_41</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x004caf84, 0xbf58e689)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 10</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/10.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/A26.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 10</Name>
+					<DefaultValue>OVTK_StimulationId_Label_0A</DefaultValue>
+					<Value>OVTK_StimulationId_Label_42</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x002f0ebc, 0x134cc5c1)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 11</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/11.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/A27.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 11</Name>
+					<DefaultValue>OVTK_StimulationId_Label_0B</DefaultValue>
+					<Value>OVTK_StimulationId_Label_43</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x00380ff4, 0xed44d3f9)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 12</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/12.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/A28.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 12</Name>
+					<DefaultValue>OVTK_StimulationId_Label_0C</DefaultValue>
+					<Value>OVTK_StimulationId_Label_44</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x0000b8e5, 0x64887e1a)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 13</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/13.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/A29.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 13</Name>
+					<DefaultValue>OVTK_StimulationId_Label_0D</DefaultValue>
+					<Value>OVTK_StimulationId_Label_45</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x002f0b1b, 0x4ebf90d8)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 14</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/14.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/A30.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 14</Name>
+					<DefaultValue>OVTK_StimulationId_Label_0E</DefaultValue>
+					<Value>OVTK_StimulationId_Label_46</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x007d68ee, 0xa79faef0)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 15</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/15.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/F21.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 15</Name>
+					<DefaultValue>OVTK_StimulationId_Label_0F</DefaultValue>
+					<Value>OVTK_StimulationId_Label_47</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x007240bf, 0x8d639008)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 16</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/16.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/F22.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 16</Name>
+					<DefaultValue>OVTK_StimulationId_Label_10</DefaultValue>
+					<Value>OVTK_StimulationId_Label_48</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x00360e49, 0x1b1a4020)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 17</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/17.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/F23.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 17</Name>
+					<DefaultValue>OVTK_StimulationId_Label_11</DefaultValue>
+					<Value>OVTK_StimulationId_Label_49</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x0068238e, 0x58d5ed38)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 18</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/18.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/F24.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 18</Name>
+					<DefaultValue>OVTK_StimulationId_Label_12</DefaultValue>
+					<Value>OVTK_StimulationId_Label_4A</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x007c43ea, 0xb634c750)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 19</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/19.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/F25.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 19</Name>
+					<DefaultValue>OVTK_StimulationId_Label_13</DefaultValue>
+					<Value>OVTK_StimulationId_Label_4B</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x00060080, 0x4f845668)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 20</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/20.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/F26.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 20</Name>
+					<DefaultValue>OVTK_StimulationId_Label_14</DefaultValue>
+					<Value>OVTK_StimulationId_Label_4C</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x00750caf, 0x3c99f280)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 21</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/21.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/F27.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 21</Name>
+					<DefaultValue>OVTK_StimulationId_Label_15</DefaultValue>
+					<Value>OVTK_StimulationId_Label_4D</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x003ead2c, 0x0e900b98)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 22</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/22.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/F28.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 22</Name>
+					<DefaultValue>OVTK_StimulationId_Label_16</DefaultValue>
+					<Value>OVTK_StimulationId_Label_4E</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x007b397b, 0xf5c749b0)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 23</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/23.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/F29.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 23</Name>
+					<DefaultValue>OVTK_StimulationId_Label_17</DefaultValue>
+					<Value>OVTK_StimulationId_Label_4F</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x006f9698, 0x5d9f44c8)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 24</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/24.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/F30.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 24</Name>
+					<DefaultValue>OVTK_StimulationId_Label_18</DefaultValue>
+					<Value>OVTK_StimulationId_Label_50</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x000b56a9, 0xa473cce0)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 25</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/25.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/T21.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 25</Name>
+					<DefaultValue>OVTK_StimulationId_Label_19</DefaultValue>
+					<Value>OVTK_StimulationId_Label_51</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x0052038f, 0x3d1841f8)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 26</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/26.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/T22.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 26</Name>
+					<DefaultValue>OVTK_StimulationId_Label_1A</DefaultValue>
+					<Value>OVTK_StimulationId_Label_52</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x0037f59a, 0xb5a48210)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 27</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/27.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/T23.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 27</Name>
+					<DefaultValue>OVTK_StimulationId_Label_1B</DefaultValue>
+					<Value>OVTK_StimulationId_Label_53</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x006bdc48, 0xcb9e7928)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 28</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/28.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/T24.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 28</Name>
+					<DefaultValue>OVTK_StimulationId_Label_1C</DefaultValue>
+					<Value>OVTK_StimulationId_Label_54</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x0014dfe8, 0xcdaedd40)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 29</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/29.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/T25.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 29</Name>
+					<DefaultValue>OVTK_StimulationId_Label_1D</DefaultValue>
+					<Value>OVTK_StimulationId_Label_55</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x007d2f78, 0x11144e58)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 30</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/30.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/T26.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 30</Name>
+					<DefaultValue>OVTK_StimulationId_Label_1E</DefaultValue>
+					<Value>OVTK_StimulationId_Label_56</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x002bf764, 0x5b572470)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 31</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/31.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/T27.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 31</Name>
+					<DefaultValue>OVTK_StimulationId_Label_1F</DefaultValue>
+					<Value>OVTK_StimulationId_Label_57</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x007338ac, 0xffd9cf88)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 32</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/32.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/T28.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 32</Name>
+					<DefaultValue>OVTK_StimulationId_Label_20</DefaultValue>
+					<Value>OVTK_StimulationId_Label_58</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x00695638, 0x8e031fa0)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 33</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/33.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/T29.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 33</Name>
+					<DefaultValue>OVTK_StimulationId_Label_21</DefaultValue>
+					<Value>OVTK_StimulationId_Label_59</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<Identifier>(0x00560e55, 0x2b1d64b8)</Identifier>
+					<TypeIdentifier>(0xffffffff, 0xffffffff)</TypeIdentifier>
+					<Name>Cue Image 34</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualization/p300-magic-card/34.png</DefaultValue>
+					<Value>${Path_Data}/plugins/simple-visualization/Stimuli/T30.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 34</Name>
+					<DefaultValue>OVTK_StimulationId_Label_22</DefaultValue>
+					<Value>OVTK_StimulationId_Label_5A</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>272</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>704</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0x18869d2c, 0x1a544d63)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x61d11811, 0x71e65362)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>5</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x00001596, 0x000018ff)</Identifier>
+			<Name>Direct (deprecated)</Name>
+			<AlgorithmClassIdentifier>(0x65731e1d, 0x47de5276)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulation stream 1</Name>
+				</Input>
+			</Inputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0xa88b3667, 0x0871638c)</TypeIdentifier>
+					<Name>Log level to use</Name>
+					<DefaultValue>Debug</DefaultValue>
+					<Value>Information</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>400</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>704</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xf451ad91, 0x14c75f86)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+					<Value>(0x00000000, 0x029a5eb7)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xfba64161, 0x65304e21)</Identifier>
+					<Value></Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x00001c08, 0x00005680)</Identifier>
+			<Name>Signal display</Name>
+			<AlgorithmClassIdentifier>(0x0055be5f, 0x087bdd12)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Data</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6ab26b81, 0x0f8c02f3)</TypeIdentifier>
+					<Name>Channel Units</Name>
+				</Input>
+			</Inputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x5de046a6, 0x086340aa)</TypeIdentifier>
+					<Name>Display Mode</Name>
+					<DefaultValue>Scan</DefaultValue>
+					<Value>Scan</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x33a30739, 0x00d5299b)</TypeIdentifier>
+					<Name>Auto vertical scale</Name>
+					<DefaultValue>Per channel</DefaultValue>
+					<Value>Per channel</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Scale refresh interval (secs)</Name>
+					<DefaultValue>5</DefaultValue>
+					<Value>5</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Vertical Scale</Name>
+					<DefaultValue>100</DefaultValue>
+					<Value>100</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Vertical Offset</Name>
+					<DefaultValue>0</DefaultValue>
+					<Value>0</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Time Scale</Name>
+					<DefaultValue>10</DefaultValue>
+					<Value>10</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Bottom ruler</Name>
+					<DefaultValue>true</DefaultValue>
+					<Value>true</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Left ruler</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Multiview</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>240</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>352</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0x92c056a7, 0x2dc71aff)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>9</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>3</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x0000343a, 0x0000548c)</Identifier>
+			<Name>Clock stimulator</Name>
+			<AlgorithmClassIdentifier>(0x4f756d3f, 0x29ff0b96)</AlgorithmClassIdentifier>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Generated stimulations</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Interstimulation interval (in sec)</Name>
+					<DefaultValue>1.0</DefaultValue>
+					<Value>3.0</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation</Name>
+					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
+					<Value>OVTK_StimulationId_Beep</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>624</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0x27b3ee3c, 0xc50527e6)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x000036bc, 0x00001899)</Identifier>
+			<Name>CSV File Writer</Name>
+			<AlgorithmClassIdentifier>(0x428375e8, 0x325f2db9)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Input stream</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations stream</Name>
+				</Input>
+			</Inputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Filename</Name>
+					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
+					<Value>C:/Users/Diana/Desktop/database/user3/record3-[$core{date}-$core{time}].csv</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
+					<Name>Precision</Name>
+					<DefaultValue>10</DefaultValue>
+					<Value>10</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Append data</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Only last matrix</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>240</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>528</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xee4b6d30, 0x788aed29)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>4</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x0000384a, 0x00001fdd)</Identifier>
+			<Name>Acquisition client</Name>
+			<AlgorithmClassIdentifier>(0x35d225cb, 0x3e6e3a5f)</AlgorithmClassIdentifier>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x403488e7, 0x565d70b6)</TypeIdentifier>
+					<Name>Experiment information</Name>
+				</Output>
+				<Output>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Signal stream</Name>
+				</Output>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations</Name>
+				</Output>
+				<Output>
+					<TypeIdentifier>(0x013df452, 0xa3a8879a)</TypeIdentifier>
+					<Name>Channel localisation</Name>
+				</Output>
+				<Output>
+					<TypeIdentifier>(0x6ab26b81, 0x0f8c02f3)</TypeIdentifier>
+					<Name>Channel units</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x79a9edeb, 0x245d83fc)</TypeIdentifier>
+					<Name>Acquisition server hostname</Name>
+					<DefaultValue>${AcquisitionServer_HostName}</DefaultValue>
+					<Value>${AcquisitionServer_HostName}</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
+					<Name>Acquisition server port</Name>
+					<DefaultValue>1024</DefaultValue>
+					<Value>1024</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>112</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>352</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0x0d4656c0, 0xc95b1fa8)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>5</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x0000417a, 0x00001419)</Identifier>
+			<Name>Matrix Display</Name>
+			<AlgorithmClassIdentifier>(0x54f0796d, 0x3ede2cc0)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x544a003e, 0x6dcba5f6)</TypeIdentifier>
+					<Name>Matrix</Name>
+				</Input>
+			</Inputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x3d3c7c7f, 0xef0e7129)</TypeIdentifier>
+					<Name>Color gradient</Name>
+					<DefaultValue>0:2,36,58; 50:100,100,100; 100:83,17,20</DefaultValue>
+					<Value>0:2,36,58; 50:100,100,100; 100:83,17,20</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
+					<Name>Steps</Name>
+					<DefaultValue>100</DefaultValue>
+					<Value>100</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Symetric min/max</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Real time min/max</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>240</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>192</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0x4ff49bdb, 0x9dcf6788)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>4</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x000061a9, 0x0000018a)</Identifier>
+			<Name>Lua Stimulator</Name>
+			<AlgorithmClassIdentifier>(0x0b5a2787, 0x02750621)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<Identifier>(0x003e095b, 0xeeb223a9)</Identifier>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>New input</Name>
+				</Input>
+				<Input>
+					<Identifier>(0x0022dbe2, 0x04821b95)</Identifier>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>New input(1)</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0xb0d0db45, 0x49cbc34a)</TypeIdentifier>
+					<Name>Lua Script</Name>
+					<DefaultValue></DefaultValue>
+					<Value>C:/Users/Diana/AppData/Roaming/openvibe-2.2.0/scenarios/prueba/scripts/prueba-lua-script-3.lua</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x17ee7c08, 0x94c14893)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>128</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>704</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xd6e3f48b, 0xbee3523a)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x61d11811, 0x71e65362)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xf191c1c8, 0xa0123976)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xfba64161, 0x65304e21)</Identifier>
+					<Value></Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x00007ce1, 0x0000626f)</Identifier>
+			<Name>Keyboard stimulator</Name>
+			<AlgorithmClassIdentifier>(0x00d317b9, 0x6324c3ff)</AlgorithmClassIdentifier>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Outgoing Stimulations</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Filename</Name>
+					<DefaultValue>${Path_Data}/plugins/stimulation/simple-keyboard-to-stimulations.txt</DefaultValue>
+					<Value>C:/Users/Diana/AppData/Roaming/openvibe-2.2.0/scenarios/prueba/scripts/prueba-keyboard-to-stimulations.txt</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>0</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>800</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0x8d89d3b7, 0x8339d210)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+	</Boxes>
+	<Links>
+		<Link>
+			<Identifier>(0x000011d6, 0x00002adb)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x0000343a, 0x0000548c)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x000061a9, 0x0000018a)</BoxIdentifier>
+				<BoxInputIdentifier>(0x003e095b, 0xeeb223a9)</BoxInputIdentifier>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00001b2e, 0x00002c36)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x0000384a, 0x00001fdd)</BoxIdentifier>
+				<BoxOutputIndex>1</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x000036bc, 0x00001899)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x000032e7, 0x00006afe)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00007ce1, 0x0000626f)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x000061a9, 0x0000018a)</BoxIdentifier>
+				<BoxInputIdentifier>(0x0022dbe2, 0x04821b95)</BoxInputIdentifier>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00003eda, 0x0000272e)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000061a9, 0x0000018a)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00001433, 0x00003e25)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00004a83, 0x0000281f)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x0000384a, 0x00001fdd)</BoxIdentifier>
+				<BoxOutputIndex>1</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00001c08, 0x00005680)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x000050de, 0x00006f5a)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x0000384a, 0x00001fdd)</BoxIdentifier>
+				<BoxOutputIndex>1</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x0000417a, 0x00001419)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00006d0d, 0x0000736c)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00001433, 0x00003e25)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00001596, 0x000018ff)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x0000793e, 0x0000747e)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000061a9, 0x0000018a)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x000036bc, 0x00001899)</BoxIdentifier>
+				<BoxInputIndex>1</BoxInputIndex>
+			</Target>
+		</Link>
+	</Links>
+	<Comments></Comments>
+	<Metadata>
+		<Entry>
+			<Identifier>(0x00002258, 0x000001be)</Identifier>
+			<Type>(0x3bcce5d2, 0x43f2d968)</Type>
+			<Data>[{"boxIdentifier":"(0x00007ce1, 0x0000626f)","childCount":0,"identifier":"(0x000014cf, 0x00001096)","parentIdentifier":"(0xffffffff, 0xffffffff)","type":3},{"boxIdentifier":"(0x00001433, 0x00003e25)","childCount":0,"identifier":"(0x00001bfd, 0x0000615c)","parentIdentifier":"(0xffffffff, 0xffffffff)","type":3},{"boxIdentifier":"(0x0000417a, 0x00001419)","childCount":0,"identifier":"(0x00006ab3, 0x00006d91)","parentIdentifier":"(0xffffffff, 0xffffffff)","type":3},{"boxIdentifier":"(0x00001c08, 0x00005680)","childCount":0,"identifier":"(0x00006c42, 0x00001979)","parentIdentifier":"(0xffffffff, 0xffffffff)","type":3},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":1,"height":320,"identifier":"(0x00007733, 0x00002176)","name":"Default window","parentIdentifier":"(0xffffffff, 0xffffffff)","type":1,"width":480},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":1,"identifier":"(0x00003db2, 0x00006162)","index":0,"name":"Default tab","parentIdentifier":"(0x00007733, 0x00002176)","type":2},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":0,"identifier":"(0x000070d3, 0x000067eb)","index":0,"name":"Empty","parentIdentifier":"(0x00003db2, 0x00006162)","type":0}]</Data>
+		</Entry>
+	</Metadata>
+</OpenViBE-Scenario>

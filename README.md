@@ -45,7 +45,7 @@ To control the experiment, three scenarios (prueba1, prueba2, prueba3) and three
 
 ## **Classification Methodology**
 
-**Signal Preprocessing**
+### **Signal Preprocessing**
 * Epoch extraction
 * Normalization (per user)
 * Detrending (linear & polynomial)
@@ -53,12 +53,12 @@ To control the experiment, three scenarios (prueba1, prueba2, prueba3) and three
 * Baseline correction
 * Channel selection
 
-**Feature Engineering (ML pipeline)**
+### **Feature Engineering (ML pipeline)**
 * Time-domain: Response time
 * Frequency-domain: Power Spectral Density (PSD) in alpha, beta, theta, gamma, delta bands
 * ERP features: P300, N400 statistical descriptors (mean, energy, AUC, etc.)
 
-**Models**
+### **Models**
 
 **1. Machine Learning**
    
